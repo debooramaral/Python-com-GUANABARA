@@ -1,3 +1,5 @@
-n1 = input('PRIMEIRO NÚMERO: ')
-n2 = input ('SEGUNDO NÚMERO: ')
-print('a SOMA destes números, é de ',n1+n2)
+n1 = int(input('Primeiro Número: '))
+n2 = int(input('Segundo Número: '))
+s = n1 + n2
+print('a SOMA destes números, é de: ', s)
+
