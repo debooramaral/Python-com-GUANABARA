@@ -1,0 +1,5 @@
+x = input('digite algo ')
+print('~ é um número? ', x.isnumeric())
+print('~ é uma letra? ', x.isalpha())
+print('~ esta maiúsculo? ', x.isupper())
+print('~ sequencia de letras e digitos e/ou sublinhado primeiro? ', x.isidentifier())
